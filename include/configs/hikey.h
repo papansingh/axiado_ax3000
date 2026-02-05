@@ -37,7 +37,6 @@
  */
 
 #define BOOT_TARGET_DEVICES(func) \
-	func(USB, usb, 0) \
 	func(MMC, mmc, 1) \
 	func(DHCP, dhcp, na)
 #include <config_distro_bootcmd.h>
