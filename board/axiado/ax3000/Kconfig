@@ -1,0 +1,18 @@
+if ARCH_AXIADO
+
+config SYS_BOARD
+default "ax3000"
+
+config SYS_VENDOR
+default "axiado"
+
+config SYS_CONFIG_NAME
+default "axiado_ax3000"
+
+config SYS_UBOOT_START
+	hex "U-Boot entry point"
+	default 0x3D080000
+	help
+	  This is the memory address where the CPU will jump to start
+	  executing U-Boot. It is almost always the same as TEXT_BASE.
+endif

@@ -1,0 +1,14 @@
+if ARCH_AXIADO
+
+config SYS_ARCH
+default "arm"
+
+config SYS_CPU
+default "armv8"
+
+config SYS_SOC
+default "ax3000"
+
+source "board/axiado/ax3000/Kconfig"
+
+endif

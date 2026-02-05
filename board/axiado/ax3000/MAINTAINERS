@@ -1,0 +1,7 @@
+AXIADO AX3000 BOARD
+M:	Aziro<papan.singh@aziro.com>
+S:	Maintained
+F:	board/axiado/ax3000/
+F:	include/configs/axiado_ax3000.h
+F:	configs/axiado_ax3000_defconfig
+F:arch/arm/dts/axiado_ax3000.dts
